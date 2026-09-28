@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #EEEEEE;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+}
+
+#productCard {
+  background-color: #DDDDDD;
+  border: none;
+  border-radius: 15px;
+  max-width: 650px;
+}
+
+.img-container {
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
+
+.text-category {
+  color: #777777;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.text-description {
+  color: #666666;
+  font-size: 14px;
+}
+
+.label-pilih {
+  font-size: 14px;
+}
+
+.btn-custom {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #444444;
+  color: #FFFFFF;
+}
+
+.color-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-black-option { 
+  background-color: #000000; 
+}
+
+.btn-blue-option { 
+  background-color: #6c9bd2; 
+}
+
+.btn-cream-option { 
+  background-color: #f5e6cc; 
+}
